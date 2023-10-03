@@ -3,8 +3,6 @@ import './App.css';
 import dexu from './pokedex.json';
 import typesu from './types.json';
 
-// mag tulong tulong pa kayo
-// bobo ka mervin ./.
 function App() {
 	let sVal = '';
 	const dex = dexu;
