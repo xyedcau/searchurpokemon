@@ -17,7 +17,7 @@ function App() {
 		} else {
 			setPoke(dex.filter(item => {
 				if (item.name.english.toLowerCase().includes(sVal.toLowerCase())) {
-					return item;
+					return true;
 				}
 			}));
 		}
@@ -37,7 +37,7 @@ function App() {
 				});
 				if (tsek) {
 					tsek = false;
-					return item;
+					return true;
 				}
 			}));
 		}
